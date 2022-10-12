@@ -1,2 +1,2 @@
-# KM-VC
-My personal cv with current achivements and skills 
+# KM_CV
+ My personal cv with all my achievements and skills
