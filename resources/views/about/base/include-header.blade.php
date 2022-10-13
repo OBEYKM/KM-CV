@@ -1,7 +1,7 @@
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="{{ route("homepage") }}">
+            <a class="navbar-brand" href="index.html">
                 {{-- <i class="fas fa-bold"></i>. --}}
                 <img src=" {{ asset("images/logo.jpg") }} " alt="Logo" class="mainLogo">
             </a>
@@ -14,16 +14,16 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #fd7e14" aria-current="page" href="homepage">Home</a>
+                        <a class="nav-link" aria-current="page" href=" {{ route("homepage") }} ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color:  #fd7e14" href="about">My Intro</a>
+                        <a class="nav-link active" href=" {{ route("about") }} ">My Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color:  #fd7e14" href="services">Services</a>
+                        <a class="nav-link" href=" {{ route("service") }} ">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color:  #fd7e14" href="contact">Contact</a>
+                        <a class="nav-link" href=" {{ route("contact") }} ">Contact</a>
                     </li>
                 </ul>
                 {{-- <form action="#search" method="GET" class="d-flex search-header">
@@ -33,8 +33,7 @@
                 </form> --}}
             </div>
             <!-- toggle switch for light and dark theme -->
-
-            {{-- <div class="cont-ser-position">
+            <div class="cont-ser-position">
                 <nav class="navigation">
                     <div class="theme-switch-wrapper">
                         <label class="theme-switch" for="checkbox">
@@ -47,7 +46,6 @@
                     </div>
                 </nav>
             </div>
-             --}}
             <!-- //toggle switch for light and dark theme -->
         </nav>
     </div>
