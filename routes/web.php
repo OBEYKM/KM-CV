@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomepageController::class,"index"]);
+Route::get('/', [HomepageController::class,"index"])->name("homepage");
 
 Route::get("/homepage",[HomepageController::class,"index"]);
 
-Route::get('/services',[HomepageController::class,"services"]);
+Route::get('/services',[HomepageController::class,"services"])->name("service");
 
-Route::get("/contact",[HomepageController::class,"contact"]);
+Route::get("/contact",[HomepageController::class,"contact"])->name("contact");
+
+Route::get("/about",[HomepageController::class,"about"])->name("about");

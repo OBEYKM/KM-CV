@@ -5,8 +5,8 @@
             <h3 class="title-style">How I can help your next project</h3>
         </div>
         <div class="w3-services-grids py-lg-4">
-            <div class="fea-gd-vv row">
-                <div class="col-lg-3 col-md-6">
+            <div class="fea-gd-vv row" style="padding: 4% ; margin:0 auto; text-align: center; width: auto">
+                <div class="col-lg-6 col-md-6">
                     <div class="feature-gd icon-yellow">
                         <div class="icon">
                             <i class="fas fa-laptop"></i>
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
+                <div class="col-lg-6 col-md-6 mt-md-0 mt-4" style="padding: 4% ; margin:0 auto;  ">
                     <div class="feature-gd icon-vilot">
                         <div class="icon">
                             <i class="fas fa-mobile-alt"></i>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                <div class="col-lg-6 col-md-6 mt-lg-0 mt-md-5 mt-4" style="padding: 4%; margin:0 auto;">
                     <div class="feature-gd icon-blue">
                         <div class="icon">
                             <i class="fab fa-android"></i>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                <div class="col-lg-6 col-md-6 mt-lg-0 mt-md-5 mt-4" style="padding: 4%; margin:0 auto;">
                     <div class="feature-gd icon-red">
                         <div class="icon">
                             <i class="fab fa-php"></i>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                {{-- <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
                     <div class="feature-gd icon-light-green">
                         <div class="icon">
                             <i class="fab fa-apple"></i>
@@ -55,8 +55,8 @@
                             <a href="#url">iOS App<br> development </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                </div> --}}
+                <div class="col-lg-6 col-md-6 mt-md-5 mt-4" style="padding: 4%; margin:0 auto;">
                     <div class="feature-gd icon-light-blue">
                         <div class="icon">
                             <i class="fas fa-code"></i>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                {{-- <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
                     <div class="feature-gd icon-dark-green">
                         <div class="icon">
                             <i class="fas fa-link"></i>
@@ -75,8 +75,8 @@
                             <a href="#url">Blockchain<br> development</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
+                </div> --}}
+                {{-- <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
                     <div class="feature-gd icon-pink">
                         <div class="icon">
                             <i class="fas fa-code-branch"></i>
@@ -85,11 +85,11 @@
                             <a href="#url">.net program<br> development</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="text-center mt-5">
-            <a href="services.html" class="btn btn-style">Learn More</a>
+            <a href="{{ route("service") }}" class="btn btn-style">Learn More</a>
         </div>
     </div>
 </section>

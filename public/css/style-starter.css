@@ -10,6 +10,21 @@ Author URL: http://w3layouts.com
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.mainLogo{
+  width:100px;
+  height:50px;
+}
+
+.word-compose{
+  color: #fd7e14;
+  font-weight: bolder;
+}
+
+.whiteText{
+  color: white;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -43,6 +58,8 @@ Author URL: http://w3layouts.com
   box-sizing: border-box;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -55,7 +72,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color:#e2e3e5;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -4536,8 +4553,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
@@ -19156,10 +19173,11 @@ h3.title-style {
   display: grid;
   align-items: center;
   min-height: 100vh;
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/banner3.jpg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;
+  
   z-index: 1;
 }
 
@@ -19217,7 +19235,7 @@ h3.title-style {
 
 .icon-effects-w3-3 {
   position: absolute;
-  top: 23%;
+  top: 16%;
   left: 18%;
 }
 
@@ -19229,7 +19247,7 @@ h3.title-style {
 
 @media (max-width: 991px) {
   .icon-effects-w3-3 {
-    top: 17%;
+    top: 12%;
     left: 33%;
   }
 }
@@ -19473,7 +19491,8 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-1:before,
 .w3l-progress .progress-bar.gradient-2:before,
 .w3l-progress .progress-bar.gradient-3:before,
-.w3l-progress .progress-bar.gradient-4:before {
+.w3l-progress .progress-bar.gradient-4:before,
+.w3l-progress .progress-bar.gradient-5:before{
   height: 28px;
   width: 28px;
   border: 1px solid;
@@ -19483,7 +19502,8 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-1:after,
 .w3l-progress .progress-bar.gradient-2:after,
 .w3l-progress .progress-bar.gradient-3:after,
-.w3l-progress .progress-bar.gradient-4:after {
+.w3l-progress .progress-bar.gradient-4:after,
+.w3l-progress .progress-bar.gradient-5:after {
   height: 13px;
   width: 13px;
   border: 3px solid;
@@ -19500,7 +19520,23 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-1:before {
   content: "";
   position: absolute;
-  right: 20%;
+  right: 40%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
+
+.w3l-progress .progress-bar.gradient-5 {
+  color: #61fded;
+  background-color: #0d8abc;
+  background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+.w3l-progress .progress-bar.gradient-5:after,
+.w3l-progress .progress-bar.gradient-5:before {
+  content: "";
+  position: absolute;
+  right: 60%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19516,7 +19552,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-2:before {
   content: "";
   position: absolute;
-  right: 5%;
+  right: 25%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19548,7 +19584,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-4:before {
   content: "";
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);

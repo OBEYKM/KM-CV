@@ -45,7 +45,7 @@ Author URL: http://w3layouts.com
     <!-- //home service section -->
 
     <!-- testimonials section -->
-    @include('homepage.base.include-testimonials')
+    {{-- @include('homepage.base.include-testimonials') --}}
     <!-- //testimonials section -->
 
     <!-- footer -->

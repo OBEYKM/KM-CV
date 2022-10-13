@@ -1,12 +1,11 @@
 <footer class="footer-w3ls text-center py-5">
     <div class="container pt-4">
         <div class="mx-auto" style="max-width:600px;">
-            <a href="index.html" class="footer-logo py-1">
-                <i class="fas fa-bold"></i>.
+            <a href=" {{ route("homepage") }} " class="footer-logo py-1">
+                {{-- <i class="fas fa-bold"></i>. --}}
+                <img src=" {{ asset("images/logo.jpg") }} " alt="Logo" class="mainLogo">
             </a>
-            <p class="mt-4 text-white">Itaque earum rerum hic tenetur asaItaque
-                earum rerum hic tenetur asap iente delectus ac elit in
-                coeiciendis maiores.</p>
+            <p class="mt-4 text-white">OBEY'S system is a small bussiness  , focusing on improving Moz </p>
             <div class="social-icons-main mt-4 pb-3">
                 <ul class="social-icons3">
                     <li>

@@ -1,8 +1,9 @@
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-bold"></i>.
+            <a class="navbar-brand" href="{{ route("homepage") }}">
+                {{-- <i class="fas fa-bold"></i>. --}}
+                <img src=" {{ asset("images/logo.jpg") }} " alt="Logo" class="mainLogo">
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -13,16 +14,16 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="homepage">Home</a>
+                        <a class="nav-link active" style="color: #fd7e14" aria-current="page" href="homepage">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="homepage">My Intro</a>
+                        <a class="nav-link" style="color:  #fd7e14" href="homepage">My Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services">Services</a>
+                        <a class="nav-link" style="color:  #fd7e14" href="services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" style="color:  #fd7e14" href="contact">Contact</a>
                     </li>
                 </ul>
                 {{-- <form action="#search" method="GET" class="d-flex search-header">

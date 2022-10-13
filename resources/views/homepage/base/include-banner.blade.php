@@ -1,13 +1,13 @@
-<section class="w3l-banner py-5" id="home">
+<section class="w3l-banner py-5 " id="home">
     <div class="container py-md-5 py-4">
         <div class="row align-items-center pt-4">
             <div class="col-md-6 banner-left pe-xl-5">
-                <h4>Hi, I'm Kester Munetsi</h4>
-                <h3 class="mb-3 mt-1">Junior Developer</h3>
-                <p class="banner-sub me-md-5">i'm an entry level developer capable to design your dream wesite
+                <h4 class="whiteText">Hi, I'm Kester Munetsi</h4>
+                <h3 class="mb-3 mt-1 whiteText">Junior <em class="word-compose">Developer</em></h3>
+                <p class="banner-sub me-md-5 whiteText">i'm an entry level developer capable to <em class="word-compose">COMPOSE</em> your dream wesite
                 </p>
                 <div class="d-flex align-items-center buttons-banner mt-sm-5 mt-4">
-                    <a href="about.html" class="btn btn-style me-2">Hire Me</a>
+                    <a href=" {{ route("about") }} " class="btn btn-style me-2">Hire Me</a>
                 </div>
             </div>
             <div class="col-md-6">
